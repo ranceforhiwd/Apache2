@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-             sh:"git ftp push"
+             sh "git ftp push"
             }
         }
         stage('Test') {
