@@ -7,7 +7,7 @@ pipeline {
              sh git-ftp  sh'git-ftp push -u ${FTP_USERNAME} -p ${FTP_PASSWORD} 160.153.55.233'
             }
         }
-        stage('Test') {
+        stage('1Test') {
             steps {
                 echo 'Testing..'
             }
